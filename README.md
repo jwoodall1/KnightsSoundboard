@@ -1,8 +1,8 @@
-# 🎵 Knights Soundboard
+# Knights Soundboard
 
 A modern, responsive web-based soundboard application with two separate sections for organizing and playing audio files. Features include dynamic button management, file upload, and persistent storage.
 
-## ✨ Features
+## Features
 
 - **Two Independent Sections**: Organize your sounds into two separate sections
 - **Dynamic Button Management**: Add/remove buttons from each section with simple controls
@@ -13,7 +13,7 @@ A modern, responsive web-based soundboard application with two separate sections
 - **Audio Controls**: Play sounds with visual feedback and proper audio management
 - **Cross-Platform**: Works on desktop and mobile devices
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Direct File Opening
 1. Open `source/index.html` in your web browser
@@ -34,7 +34,7 @@ A modern, responsive web-based soundboard application with two separate sections
    npm run dev
    ```
 
-## 📖 How to Use
+## How to Use
 
 ### Adding Buttons
 - Click the "➕ Add Button" button in either section to create a new sound button
@@ -61,7 +61,7 @@ A modern, responsive web-based soundboard application with two separate sections
 - Click "📁 Load Project" to import a previously exported soundboard
 - This allows you to share configurations or backup your work
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### File Structure
 ```
@@ -85,7 +85,7 @@ KnightsSounboard/
 - Data includes button configurations and audio file data
 - No server required - everything runs client-side
 
-## 🎨 Customization
+## Customization
 
 ### Adding More Sections
 To add more sections, modify the HTML structure in `index.html` and update the JavaScript in `script.js` to handle additional sections.
@@ -108,11 +108,11 @@ All styles are in `styles.css`. The app uses CSS Grid and Flexbox for responsive
 - `npm run serve` - Start simple HTTP server
 - `npm run build` - No build process needed
 
-## 📱 Mobile Support
+## Mobile Support
 
 The application is fully responsive and works on mobile devices. Touch interactions are supported for all button operations.
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Audio Not Playing
 - Ensure your browser supports HTML5 audio
@@ -129,11 +129,11 @@ The application is fully responsive and works on mobile devices. Touch interacti
 - Check file size (very large files may cause issues)
 - Try refreshing the page and uploading again
 
-## 📄 License
+## License
 
 MIT License - feel free to modify and distribute as needed.
 
-## 🤝 Contributing
+## Contributing
 
 This is a simple project, but contributions are welcome! Feel free to:
 - Report bugs
@@ -142,5 +142,3 @@ This is a simple project, but contributions are welcome! Feel free to:
 - Improve documentation
 
 ---
-
-**Enjoy your Knights Soundboard! 🎵**
